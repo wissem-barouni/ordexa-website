@@ -1,0 +1,10 @@
+/* Arabic (RTL) overrides */
+[dir=rtl] body,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3,[dir=rtl] h4,[dir=rtl] .btn,[dir=rtl] .eyebrow,[dir=rtl] .crumb,[dir=rtl] .stat span,[dir=rtl] .gs-f span,[dir=rtl] .opt-in b,[dir=rtl] .foot h4,[dir=rtl] input,[dir=rtl] select,[dir=rtl] textarea,[dir=rtl] button,[dir=rtl] .dchip,[dir=rtl] .dfl,[dir=rtl] .dcard h3{font-family:Cairo,Montserrat,Inter,sans-serif}
+[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3,[dir=rtl] h4,[dir=rtl] .eyebrow,[dir=rtl] .crumb,[dir=rtl] .gs-or,[dir=rtl] .stat span,[dir=rtl] .gs-f span,[dir=rtl] .dchip small,[dir=rtl] .dchart h4{letter-spacing:0}
+[dir=rtl] body{line-height:1.8}[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3{line-height:1.35}
+[dir=rtl] .dd-m{left:auto;right:-14px}
+[dir=rtl] .langs,[dir=rtl] .stat b,[dir=rtl] .step i,[dir=rtl] .tl li:before,[dir=rtl] .nav-in nav .dd-t svg{direction:ltr}
+[dir=rtl] input[type=tel],[dir=rtl] input[type=email],[dir=rtl] input[name=store_url]{direction:ltr;text-align:right}
+[dir=rtl] .btn svg{transform:scaleX(-1)}
+[dir=rtl] .dfl.a{left:auto;right:-30px}[dir=rtl] .dfl.b{right:auto;left:-26px}[dir=rtl] .dfl.c{right:auto;left:14%}
+[dir=rtl] .dcard,[dir=rtl] .net{direction:rtl}[dir=rtl] .dchart svg,[dir=rtl] .net svg{direction:ltr}
