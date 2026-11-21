@@ -26,7 +26,7 @@ h1,h2,h3,h4{font-family:var(--head);letter-spacing:-.03em;line-height:1.08;text-
 .nav{position:fixed;top:16px;inset-inline:0;z-index:50;pointer-events:none}
 .nav-in{pointer-events:auto;height:64px;display:flex;align-items:center;gap:26px;padding:0 12px 0 14px;border-radius:999px;background:rgba(10,20,36,.6);border:1px solid rgba(255,255,255,.09);backdrop-filter:blur(18px);transition:background .3s}
 .nav.scrolled .nav-in{background:rgba(7,13,23,.92)}
-.brand img{width:140px;height:45px;filter:drop-shadow(0 0 14px rgba(25,184,245,.35))}
+.brand img{width:245px;height:auto;filter:drop-shadow(0 0 14px rgba(25,184,245,.35))}@media(max-width:700px){.brand img{width:190px}}
 .nav-in nav{display:flex;align-items:center;gap:26px;margin-inline:auto;font-size:14.5px;font-weight:500}
 .nav nav>a,.nav nav .dd-t{color:var(--mut);padding:8px 0;position:relative;transition:color .2s}.nav nav>a:hover,.nav nav .dd-t:hover,.nav nav a.on{color:#fff}
 .nav nav a.on:after{content:"";position:absolute;left:50%;bottom:-3px;width:5px;height:5px;margin-left:-2.5px;border-radius:50%;background:var(--or);box-shadow:0 0 10px var(--or)}
